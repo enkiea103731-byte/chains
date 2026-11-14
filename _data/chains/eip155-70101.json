@@ -1,25 +1,23 @@
 {
-  "name": "EKI Mainnet",
+  "name": "EKI Chain",
   "chain": "EKI",
-  "icon": "eki",
-  "rpc": [
-    "https://www.eki-chain.cloud-ip.cc/rpc"
-  ],
+  "rpc": ["https://ekichain.vercel.app/api/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "EKI",
     "symbol": "EKI",
     "decimals": 18
   },
-  "infoURL": "https://www.eki-chain.cloud-ip.cc",
+  "infoURL": "https://ekichain.vercel.app",
   "shortName": "eki",
   "chainId": 70101,
   "networkId": 70101,
   "explorers": [
     {
       "name": "EKI Explorer",
-      "url": "https://www.eki-chain.cloud-ip.cc",
-      "standard": "EIP3091"
+      "url": "https://ekichain.vercel.app",
+      "standard": "none"
     }
   ]
+}
 }
